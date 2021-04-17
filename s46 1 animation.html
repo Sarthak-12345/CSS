@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS By sarthak</title>
+    <style>
+#img{
+width: 300px;
+height: 300px;
+margin: 5px;
+}
+#div1{
+ background-color: #00ffcc;
+width: 310px;
+height: 310px;
+margin: 50px;
+}
+#div1:hover{
+cursor: pointer;
+animation: backg1_annimation 5s;
+}
+@keyframes backg1_annimation{
+ 0%{
+
+transform: translate(0px,0px) rotate(45deg);
+ }
+20%{
+  transform: translate(500px,0px) rotate(90deg);
+  
+}
+40%{
+  transform: translate(500px,500px) rotate(180deg);
+  
+}
+60%{
+  transform: translate(500px,0px) rotate(270deg); 
+}
+80%{
+  transform: translate(0px,0px) rotate(-45deg); 
+}
+
+}
+
+  </style>
+
+</head>
+<body>
+
+<div id="div1">
+<img src="F:\9 am UI classes\VSCODE\CSS\app01\images\backg1.jpg">
+</div>
+
+</body>
+</html> 
+
